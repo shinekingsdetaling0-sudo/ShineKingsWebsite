@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Shine Kings</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<header>
+  <img src="logo.png" alt="Shine Kings Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html">Booking</a>
+    <a href="contact.html">Contact</a>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+  </nav>
+</header>
+
+<section class="section fade-in">
+  <h2>Send Us a Message</h2>
+
+  <form onsubmit="alert('Your message has been sent!'); return false;">
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="email" placeholder="Your Email" required><br><br>
+    <textarea placeholder="Your Message" required></textarea><br><br>
+    <button class="btn">Send</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 Shine Kings Rinse & Clean Detailing
+</footer>
+</body>
+</html>
